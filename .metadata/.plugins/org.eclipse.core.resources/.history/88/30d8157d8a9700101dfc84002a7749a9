@@ -1,0 +1,35 @@
+<%@page import="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%!
+public void gugudan(int n) {
+	
+}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+// for (int i = 2; i < 10; i++) {
+// 	out.println("<h1>" + i + "단 </h1>");
+// 	for (int j = 1; j < 10; j++) {
+// 		out.println("<p>" + i + " X " + j + " = " + j * i + "</p>");
+// 	}
+// }
+%>
+<table>
+<%
+for (int i = 2; i < 10; i++) {
+	out.println("<th>" + i + "단 </th>");
+	for (int j = 1; j < 10; j++) {
+		out.println("<td>" + i + " X " + j + " = " + j * i + "</td>");
+	}
+}
+%>
+</table>
+</body>
+</html>

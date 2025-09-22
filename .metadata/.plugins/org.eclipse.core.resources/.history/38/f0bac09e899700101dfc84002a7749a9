@@ -1,0 +1,23 @@
+<%@page import="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%!
+public void gugudan(int n) {
+	System.out.println(n+"단");
+	for (int j = 2; j < 10; j++) {
+			System.out.println(j + " X " + n + " = " + j * n);
+	}
+}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+for (int i = 0; )
+%>
+</body>
+</html>
