@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>간단 계산기</title>
+</head>
+<body>
+	<%
+	int num1 = Integer.parseInt(request.getParameter("num1"));
+	int num2 = Integer.parseInt(request.getParameter("num2"));
+	if (num1 != null && num2 != null) {
+		int sum = Integer.parseInt() 
+	}
+	%>
+	<form>
+		num 1 : <input type="text" name="num1" /><br />
+		num 2 : <input type="text" name="num2" /><br />
+		sum : <input type="text" name="sum" /><br />
+		<input type="submit" value="계산"/>
+	</form>
+</body>
+</html>

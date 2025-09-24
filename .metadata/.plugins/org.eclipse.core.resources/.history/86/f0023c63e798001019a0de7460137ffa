@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>간단 계산기</title>
+</head>
+<body>
+	<form>
+		num 1 : <input type="text" value="num1" /><br />
+		num 2 : <input type="text" value="num2" /><br />
+		sum : <input type="text" value="sum" />
+	</form>
+</body>
+</html>
