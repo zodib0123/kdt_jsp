@@ -17,6 +17,8 @@
 --><!-- The contents of this file will be loaded for each web application --><Context>
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
+    <ResourceLink global="dbcp_mysql" name="dbcp_mysql" type="javax.sql.DataSource"/>
+    
     <!-- web application will be reloaded.                                   -->
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
     <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
