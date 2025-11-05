@@ -52,7 +52,7 @@ public class MultipleProcess extends HttpServlet {
 		
 		MyFileDTO dto = new MyFileDTO();
 		dto.setTitle(title);
-		dto.setCate(cateBuf.toString());
+		dto.setCate(cateBuf.substring(0, cateBuf.length() - 2).toString());
 		dto.setOfile(oFileName);
 		dto.setSfile(sFileName);
 		
